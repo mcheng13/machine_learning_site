@@ -31,7 +31,42 @@ corresponding labels) answer the following questions.
   1. 60000, 28, 28
   2. 60000
   3. 10000, 28, 28
-  4. [Code that produces array of probabilities](https://mcheng13.github.io/machine_learning_site/PartD_4)
-  5. Use np.argmax() with your predictions object to return the numeral with the highest 
-  probability from the test labels dataset.
-  6. Produce the following plot for your randomly selected image from the test dataset
+  4. 
+ ```{python}
+  import tensorflow as tf
+  import numpy as np
+
+  class Callback(tf.keras.callbacks.Callback):
+    def on_epoch_end(self,epoch,logs={}):
+      if(logs.get('accuracy')>0.99):
+        print('\nReached 99% accuracy so cancelling training!')
+        self.model.stop_training = True
+
+  mnist = tf.keras.datasets.mnist
+  (x_train, y_train),(x_test, y_test) = mnist.load_data()
+  x_train, x_test = x_train/255.0, x_test/255.0
+
+  callbacks = Callback()
+
+  model = tf.keras.models.Sequential([
+  tf.keras.layers.Flatten(input_shape=(28,28)),
+  tf.keras.layers.Dense(512,activation=tf.nn.relu),
+  tf.keras.layers.Dense(10, activation=tf.nn.softmax)
+  ])
+
+  model.compile(optimizer='adam',
+                loss='sparse_categorical_crossentropy',
+                metrics=['accuracy'])
+  model.fit(x_train,y_train,epochs=10,callbacks=[callbacks])
+
+  probability_model = tf.keras.Sequential([model,
+                                           tf.keras.layers.Softmax()])
+  predictions = probability_model.predict(x_test)
+
+  random_image = np.random.randint(0,len(x_test))
+  print('Random Image Number:',random_image)
+  print(predictions[random_image])
+  ```
+    5. Use np.argmax() with your predictions object to return the numeral with the highest 
+    probability from the test labels dataset.
+    6. Produce the following plot for your randomly selected image from the test dataset
