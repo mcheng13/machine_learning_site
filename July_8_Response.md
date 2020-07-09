@@ -31,7 +31,7 @@ corresponding labels) answer the following questions.
   1. 60000, 28, 28
   2. 60000
   3. 10000, 28, 28
-  4. [Code that produces array of probabilities](http://mrcheng.github.io/code)
+  4. [Code that produces array of probabilities](https://mcheng13.github.io/machine_learning_site/PartD_4)
   5. Use np.argmax() with your predictions object to return the numeral with the highest 
   probability from the test labels dataset.
   6. Produce the following plot for your randomly selected image from the test dataset
