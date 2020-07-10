@@ -5,4 +5,4 @@
 ![Loss Graph](https://user-images.githubusercontent.com/67922851/87076722-1fea9300-c1f0-11ea-9f3e-900db957aaed.png)
 
 4. On the other hand, validation accuracy begins very low, as the initial guess is blind. As the optimizer makes better and better guesses, the decrease in loss correlates with an increase in validation accuracy. After a while, the validation accuracy actually starts to decrease, as the model is getting overfit. This is due to the same issue described in number 3 where the model tries to find patterns that do not exist in the testing data.
-
+![Accuracy Graph](https://user-images.githubusercontent.com/67922851/87114902-cf9b2180-c23f-11ea-81a6-b9466ec6b5da.png)
