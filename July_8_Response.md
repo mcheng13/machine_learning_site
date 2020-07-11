@@ -32,7 +32,7 @@ corresponding labels) answer the following questions.
   2. 60000
   3. 10000, 28, 28
   4. 
- ```{python}
+ ```python
   import tensorflow as tf
   import numpy as np
 
@@ -68,11 +68,11 @@ corresponding labels) answer the following questions.
   print(predictions[random_image])
   ```
   5. 
-  ``` {python}
+  ```python
   print(np.argmax(predictions[random_image]))
   ```
   6. 
-  ``` {python}
+  ```python
   def plot_value_array(i, predictions_array, true_label):
     predictions_array, true_label = predictions_array, true_label[i]
     plt.grid(False)
