@@ -31,7 +31,7 @@ corresponding labels) answer the following questions.
   1. 60000, 28, 28
   2. 60000
   3. 10000, 28, 28
-  4. 
+  4.   
  ```python
   import tensorflow as tf
   import numpy as np
@@ -67,11 +67,11 @@ corresponding labels) answer the following questions.
   print('Random Image Number:',random_image)
   print(predictions[random_image])
   ```
-  5. 
+  5.   
   ```python
   print(np.argmax(predictions[random_image]))
   ```
-  6. 
+  6.   
   ```python
   def plot_value_array(i, predictions_array, true_label):
     predictions_array, true_label = predictions_array, true_label[i]
