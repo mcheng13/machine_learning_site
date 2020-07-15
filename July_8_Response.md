@@ -8,7 +8,7 @@ data has already been classified, we can compare its actual classification with 
 output of the model and determine the model's accuracy. If we simply did this with 
 training data, the model has already seen this data, so we could run into the issue of 
 the model simply memorizing the classification of the training data and not actually being
-able to classify.
+able to classify. *This is called being overfit.*
 
 B. The purpose of the relu function is to avoid skewing made by negative outputs. In 
 order to do this, the function takes all negative outputs and sets them to zero. The softmax
