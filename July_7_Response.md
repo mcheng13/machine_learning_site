@@ -9,6 +9,6 @@ rules based on the data and answers. *This is significant, as computers are able
 
 
 | Home(# Bedrooms) | Moon(2) | Church(4) | New Pt Comfort(3) | Mobjack(4) | Mathews(5) | Hudgins(3) |
-|:------------------|---------|-----------|-------------------|------------|------------|------------|
+|:------------------|:---------:|:-----------:|:-------------------:|:------------:|:------------:|:------------:|
 | Estimated Price  | $150K   | $280K     | $215K             | $280K      | $350K      | $215K      |
 | Actual Price     | $250K   | $400K     | $230K             | $290K      | $350K      | $100K      |
