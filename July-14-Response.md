@@ -1,7 +1,5 @@
 ## Response for Tuesday, July 14
 A.  
-what are you functionally accomplishing as you apply the filter, why is the application of a convolving filter to an image useful for computer vision 
-
 ![filter1](https://user-images.githubusercontent.com/67922851/87632634-c4486a00-c707-11ea-9606-0d6379efcd63.png)
 
 This filter seemed to emphasize the edge lines in the image. When you look at the image, although the lines may be faint, they are mostly even and cover the outline of every object in the image.
@@ -17,7 +15,6 @@ In this image, all of the horizontal lines are emphasized, and similar to the pr
 What applying filters like these actually does is it processes the images into raw features to make it easier to find sets of filters to later be used for classification. This is very useful for computer vision as it allows for input images to have objects that aren't centered and that can face any direction. For example, before we had an issue where shoes could only face one direction or else they would be misidentified, but this acts as a solution to that problem.
 
 B. 
-
 ![pooling](https://user-images.githubusercontent.com/67922851/87633122-ce1e9d00-c708-11ea-81b1-724ce785c5d2.png)
 
 This pooling done on the horizontal filter was able to extract and emphasize the features while removing any unnecessary information. Looking at the code, for every 2x2 set of pixels, the pixels are sorted in descending order, and then are replaced by the pixel with the greatest value. Since four pixels are replaced by one, this makes the image four times smaller and makes each axis half the length it was previously. This is useful as it accelerates the learning process. Images have less information overall, but retain the information that is actually useful for classification.
