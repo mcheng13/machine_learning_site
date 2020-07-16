@@ -7,5 +7,5 @@
 [Project Response](https://mcheng13.github.io/machine_learning_site/Project-Answers)
 
 # Week 2  
-[July 14 Response](https://mcheng13.github.io/machine_learning_site/July_14_Response)
+[July 14 Response](https://mcheng13.github.io/machine_learning_site/July_14_Response)  
 [July 15 Response](https://mcheng13.github.io/machine_learning_site/July_15_Response)
