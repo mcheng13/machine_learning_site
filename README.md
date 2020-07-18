@@ -8,5 +8,5 @@
 
 ### Week 2  
 [July 14 Response](https://mcheng13.github.io/machine_learning_site/July_14_Response)  
-[July 15 Response](https://mcheng13.github.io/machine_learning_site/July_15_Response)
-[Project 2 (Jump Start Data Science Summer Program compeition submission)](https://mcheng13.github.io/machine_learning_site/Project2)
+[July 15 Response](https://mcheng13.github.io/machine_learning_site/July_15_Response). 
+[Project 2 (Jump Start Data Science Summer Program competition submission)](https://mcheng13.github.io/machine_learning_site/Project2)
