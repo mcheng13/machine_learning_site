@@ -13,3 +13,4 @@
 
 ### Week 3
 [July 20 Response](https://mcheng13.github.io/machine_learning_site/July_20_Response)  
+[July 21 Response](https://mcheng13.github.io/machine_learning_site/July_21_Response) 
