@@ -23,7 +23,7 @@ classifier = tf.estimator.StepCounterHook()
 |DNN Linear Combined Classifier|0.73|0.56|
 |Linear Classifier|0.97|0.07|
 
-B. Build a Linear Model
+B. Build a Linear Model  
 	1. Here we can see that the univariate age plot and the age histogram are very similar looking. This is because the univariate age plot in the pairplot displays the probability distribution of age, while the histogram displays the actual amount of passengers in each age group. By looking at these plots, we can determine that the most common age group on the Titanic was late twenties to early thirties, and that the majority of the passengers fell between the late teens and about forty.  
 ####Pairplot
 ![Unknown-11](https://user-images.githubusercontent.com/67922851/88121541-06ecc500-cb94-11ea-8437-7af7bd666204.png)
@@ -36,7 +36,7 @@ B. Build a Linear Model
 ![Unknown-13](https://user-images.githubusercontent.com/67922851/88126237-1e7d7b00-cb9f-11ea-9c52-f72edd8d8b16.png)
 #####With Cross Featured Column
 ![Unknown-14](https://user-images.githubusercontent.com/67922851/88126241-20dfd500-cb9f-11ea-9f38-3a076835c49c.png)
-Here we can see that there is a higher frequency of values near zero for the plot without the cross featured column with a frequency of 70 around 0.1 compared to a frequency of only around 45 for the other plot. The other plot also has slightly higher values for frequency between 0.6 and 1.
+Here we can see that there is a higher frequency of probabilities near zero for both plots with the plots being skewed to the right. However, the frequencies of the probabilities around 0.5 are lower than those closer to one. This shows that there are almost two groups of passengers, those who are very likely to die, and those who have a decent chance of living. With the sex of the passenger being the most important feature in this dataset, it appears that the plots have displayed this fact, with the low living chance group being the males and the higher chance group being the females.
 ####ROC Curves
 #####Without Cross Featured Column
 ![Unknown-15](https://user-images.githubusercontent.com/67922851/88126245-23422f00-cb9f-11ea-81c4-52fd7b7da4ea.png)
