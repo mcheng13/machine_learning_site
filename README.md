@@ -18,3 +18,4 @@
 [Project 3 Writeup](https://mcheng13.github.io/machine_learning_site/Project3)  
 
 ### Week 4
+[Project 3 Predictions](https://mcheng13.github.io/machine_learning_site/Project3_Predictions)  
