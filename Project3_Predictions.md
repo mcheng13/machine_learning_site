@@ -4,12 +4,12 @@
 Predicted: 14  
 Actual: 0  
 
-###Image 2: 
+### Image 2: 
 ![Figure_2](https://user-images.githubusercontent.com/67922851/88574646-a1c02600-d010-11ea-9fe5-c320f9d41930.png)  
 Predicted: 18  
 Actual: 36  
 
-###Image 3:
+### Image 3:
 ![Figure_3](https://user-images.githubusercontent.com/67922851/88574653-a4bb1680-d010-11ea-8273-880662cfdb4f.png)  
 Predicted: 19  
 Actual: 38  
