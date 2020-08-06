@@ -21,3 +21,6 @@
 [Project 3 Predictions](https://mcheng13.github.io/machine_learning_site/Project3_Predictions)  
 [July 28 Response](https://mcheng13.github.io/machine_learning_site/July_28_Response)   
 [July 29 Response](https://mcheng13.github.io/machine_learning_site/July_29_Response)  
+
+### Week 5
+[Final Project Poster](https://mcheng13.github.io/machine_learning_site/MLFinalPoster) 
