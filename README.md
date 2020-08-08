@@ -23,4 +23,5 @@
 [July 29 Response](https://mcheng13.github.io/machine_learning_site/July_29_Response)  
 
 ### Week 5
-[Final Project Poster](https://mcheng13.github.io/machine_learning_site/MLFinalPoster) 
+[Final Project Poster](https://mcheng13.github.io/machine_learning_site/MLFinalPoster)  
+[Final Project](https://mcheng13.github.io/machine_learning_site/MLFinal) 
